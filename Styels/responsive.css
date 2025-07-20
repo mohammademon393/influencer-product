@@ -1,17 +1,17 @@
 /* navber part */
 @media screen and (max-width: 576px) {
-    .nav, .nav-s2, .nav-s2 ul, .banner{
+    .nav, 
+    .nav-s2, 
+    .nav-s2 ul{
         flex-direction: column;
     }
-    .banner-c1 h1{
-        font-size: 34px;
+    .banner{
+        flex-direction:column-reverse;
         text-align: center;
     }
-    .banner-c2 img{
-        width:25%;
-
+    .banner-img{
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
     }
-        /* .banner-c2{
-            background-image: none;
-        } */
 }
