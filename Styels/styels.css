@@ -17,6 +17,10 @@ p,a{
     font-weight: 600;
     color: #3A3A3A;
 }
+i {
+    margin-top: 5px;
+    margin-left: 5px;
+}
 .btn{
     width: 180px;
     height: 45px;
@@ -24,6 +28,7 @@ p,a{
     color: white;
     font-size:1rem;
     font-weight: bold;
+    border: none;
     border-radius: 25px;
 }
 h3{
@@ -36,6 +41,7 @@ h3{
 .hidden{
     display: none;
 }
+
 
 /* navber */
 .nav{
@@ -83,7 +89,86 @@ h3{
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
 }
-/* main */
 
+
+/* main */
+/* another section */
+.article-1 h3{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: -50px;
+}
+.another{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.web-img{
+    margin-bottom: 20px;
+}
+
+/* Popular-Collection */
+.Popular-Collection{
+    max-width: 1020px;
+    margin-top: 100px;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+   max-width: 330px;
+   max-height: fit-content;
+    padding: 15px;
+    /* margin: 15px; */
+    border-radius: 10px;
+    text-align: left;
+
+    box-sizing: border-box;
+    float: left;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card p{
+    font-size: 0.8rem;
+    color: #787885;
+}
+.card h3{
+    text-align: left;
+    margin: 0 0 0px 0;
+}
+.card h4{
+    font-size: 1.5rem;
+    color: #787885;
+}
+.see-more{
+    color: #E02C6D;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+
+/* future-product */
+.future-product{
+    display: flex;
+    max-width: 1140px;
+    height: 250px;
+    margin: 100px auto;
+    align-items: center;
+    gap: 120px;
+}
+
+.future-product-right{
+    flex: 1;
+}
+.future-product-right h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
 /* footer */
 
